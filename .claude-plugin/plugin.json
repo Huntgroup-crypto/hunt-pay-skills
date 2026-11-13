@@ -1,0 +1,12 @@
+{
+  "name": "hunt-cover",
+  "version": "0.1.0",
+  "description": "Skills for AI agents that integrate Hunt Cover: payments, webhooks, Send and Withdraw with human approval, errors and retries, and read only MCP.",
+  "author": {
+    "name": "Hunt Financials Limited",
+    "url": "https://www.huntcover.com"
+  },
+  "homepage": "https://www.huntcover.com/developers/skills",
+  "repository": "https://github.com/Huntgroup-crypto/hunt-pay-skills",
+  "license": "MIT"
+}

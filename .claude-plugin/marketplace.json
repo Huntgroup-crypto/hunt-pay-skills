@@ -1,0 +1,21 @@
+{
+  "name": "hunt-cover-plugins",
+  "owner": {
+    "name": "Hunt Financials Limited",
+    "url": "https://www.huntcover.com"
+  },
+  "metadata": {
+    "description": "Hunt Cover agent skills"
+  },
+  "plugins": [
+    {
+      "name": "hunt-cover",
+      "source": "./",
+      "description": "Skills for AI agents that integrate Hunt Cover: payments, webhooks, Send and Withdraw with human approval, errors and retries, and read only MCP.",
+      "version": "0.1.0",
+      "homepage": "https://www.huntcover.com/developers/skills",
+      "repository": "https://github.com/Huntgroup-crypto/hunt-pay-skills",
+      "license": "MIT"
+    }
+  ]
+}

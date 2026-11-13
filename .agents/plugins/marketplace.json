@@ -1,0 +1,20 @@
+{
+  "name": "hunt-cover-plugins",
+  "interface": {
+    "displayName": "Hunt Cover Agent Skills"
+  },
+  "plugins": [
+    {
+      "name": "hunt-cover",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

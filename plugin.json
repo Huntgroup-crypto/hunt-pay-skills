@@ -1,0 +1,46 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "hunt-cover",
+  "version": "0.1.0",
+  "description": "Skills for AI agents that integrate Hunt Cover: payments, webhooks, Send and Withdraw with human approval, errors and retries, and read only MCP.",
+  "author": {
+    "name": "Hunt Financials Limited",
+    "url": "https://www.huntcover.com"
+  },
+  "homepage": "https://www.huntcover.com/developers/skills",
+  "repository": "https://github.com/Huntgroup-crypto/hunt-pay-skills",
+  "license": "MIT",
+  "keywords": [
+    "payments",
+    "developer tools",
+    "webhooks",
+    "idempotency",
+    "MCP"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Hunt Cover Agent Skills",
+        "shortDescription": "Integrate Hunt Cover payments, webhooks and Send",
+        "longDescription": "Skills that guide an AI agent through the Hunt Cover REST API in Sandbox: Payment Links and Checkout, signed webhooks, safe retries, and Send and Withdraw requests that a person approves in Hunt. The skills never ask an agent to hold a key and never approve money movement.",
+        "developerName": "Hunt Financials Limited",
+        "category": "Developer Tools",
+        "capabilities": [
+          "Guide REST API integration for payments",
+          "Guide webhook verification",
+          "Guide Send and Withdraw with human approval",
+          "Guide safe retries and error handling"
+        ],
+        "websiteURL": "https://www.huntcover.com/developers/skills",
+        "privacyPolicyURL": "https://www.huntcover.com/privacy-policy",
+        "termsOfServiceURL": "https://www.huntcover.com/terms-of-service",
+        "defaultPrompt": [
+          "Add Hunt Cover Payment Links and Checkout to my server in Sandbox.",
+          "Build a Hunt Cover webhook receiver that verifies signatures.",
+          "Show me how to retry a Hunt Cover request safely."
+        ],
+        "brandColor": "#101828"
+      }
+    }
+  }
+}
